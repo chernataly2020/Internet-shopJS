@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__title">
+      Интернет-магазин одежды
+    </h1>
+  </header>
+
+  <div class="container">
+    <div class="cart">
+      <h2>Корзина &#128722;
+</h2>
+
+      <div id="cart"></div>
+    </div>
+
+    <div class="shop">
+      <h2>Товары &#128084; &#128085; &#128087; &#128086; &#128090; </h2>
+
+      <input id="filter" type="text" class="filter" placeholder="Введите название товара...">
+
+      <ul class="products" id="products">
+        <p>Loading...</p>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h4 class="footer__title">
+      Интернет-магазин одежды
+    </h4>
+  </footer>
+  
+  <script src="productService.js"></script>
+  <script src="cartService.js"></script>
+  <script src="htmlService.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
